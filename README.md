@@ -45,7 +45,7 @@ HackWithIndia x Devnovate
 
 | Name         | Role       | Email                   | LinkedIn                                                                  | College Name   |
 |--------------|-----------|---------------------------|--------------------------------------------------------------------------|----------------|
-| Shubhreeka   | Leader    | saxenashunhreeka@gmail.com| 
+| Shubhreeka   | Leader    | saxenashunhreeka@gmail.com| [LinkedIn](http://linkedin.com/in/shubhreeka-saxena/)                    | GGSIPU, Delhi  |
 | Soasmi Kohli | Member    | soasmikohli@gmail.com     | [LinkedIn](http://www.linkedin.com/in/soasmi-kohli-711476291)            | GGSIPU, Delhi  |
 | Manshi       | Member    | manshi25chauhan@gmail.com | [LinkedIn](https://www.linkedin.com/in/manshi-chauhan-860639315/)        | GGSIPU, Delhi  |
 | Varun Makhija| Member    | varunmakhija799@gmail.com | [LinkedIn](https://www.linkedin.com/in/varun-makhija-3a66a125a/)         | GGSIPU, Delhi  |
