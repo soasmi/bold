@@ -1,100 +1,72 @@
-# Bold AI - No-Code Platform
+# Genignite Pre-Hackathon Submission
 
-A powerful no-code/low-code AI platform that allows users to describe apps in natural language and automatically generates production-ready React, Node.js, and database code.
+## 1. Problem Statement Name
+AI-Powered Full-Stack Website & Backend Builder for Non-Technical Founders
 
-## Features
+---
 
-- 🤖 **AI Code Generation**: Describe your app in natural language
-- 🚀 **One-Click Deployment**: Deploy to Vercel, Netlify, or AWS
-- 👀 **Real-time Preview**: See your app come to life instantly
-- 📱 **Responsive Design**: Mobile-friendly, modern UI
-- 🔐 **Authentication**: Built-in user management
-- 📊 **Templates**: 100+ pre-built app templates
-- 💾 **Database Integration**: MongoDB/PostgreSQL support
-- 📦 **Export Code**: Download clean, production-ready code
+## 2. Problem Statement Description
+Building production-ready applications is time-consuming and requires significant technical expertise. Many non-technical founders and early-stage teams struggle to translate ideas into scalable applications quickly. Our solution leverages AI to automate app generation, deployment, and database integration, reducing development overhead and enabling rapid prototyping.
 
-## Quick Start
+---
 
-1. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## 3. Project Overview
+**Bold AI** is a powerful no-code/low-code AI platform that allows users to describe applications in natural language and automatically generates production-ready React, Node.js, and database code. It provides real-time previews, authentication, one-click deployment, and exportable clean code — making it accessible for both non-technical and technical users.
 
-2. **Set up environment variables**
-   Create a `.env.local` file with:
-   ```
-   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-   MONGODB_URI=mongodb://localhost:27017/boldai
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your_secret_here
-   ```
+---
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+## 4. Architecture
+- **Frontend**: Next.js 14, React 18, TypeScript, Tailwind CSS, Framer Motion  
+- **Backend**: Node.js with Next.js API routes  
+- **Database**: MongoDB, PostgreSQL  
+- **AI Services**: OpenAI GPT-4 API for natural language to code generation  
+- **Authentication**: NextAuth.js  
+- **Deployment**: Vercel, Netlify, AWS  
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+---
 
-## Project Structure
+## 5. Tech Stack
+- Next.js 14, React 18, TypeScript  
+- Tailwind CSS, Framer Motion  
+- Node.js (API Routes)  
+- MongoDB, PostgreSQL  
+- NextAuth.js  
+- OpenAI GPT-4 API  
+- Vercel, Netlify, AWS  
 
-```
-bold-ai-platform/
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Home page
-├── components/            # React components
-│   ├── ChatInterface.tsx  # Main chat UI
-│   ├── CodePreview.tsx    # Code display
-│   ├── LivePreview.tsx    # Live preview
-│   ├── TemplateGallery.tsx # Template browser
-│   └── ...               # Other components
-├── contexts/              # React contexts
-│   └── AuthContext.tsx    # Authentication
-├── services/              # Business logic
-│   └── CodeGenerationService.ts # AI code generation
-└── ...                   # Config files
-```
+---
 
-## Tech Stack
+## 6. Team Name
+HackWithIndia x Devnovate  
 
-- **Frontend**: Next.js 14, React 18, TypeScript
-- **Styling**: Tailwind CSS, Framer Motion
-- **AI**: OpenAI GPT-4 API
-- **Database**: MongoDB, PostgreSQL
-- **Authentication**: NextAuth.js
-- **Deployment**: Vercel, Netlify, AWS
+---
 
-## Usage
+## 7. Team Members & Details  
 
-1. **Describe your app**: Use natural language to describe what you want to build
-2. **AI generates code**: Get production-ready React, Node.js, and database code
-3. **Preview live**: See your app running in real-time
-4. **Deploy instantly**: One-click deployment to your preferred platform
-5. **Export & customize**: Download clean code for further customization
+| Name         | Role       | Email                   | LinkedIn                                                                  | College Name   |
+|--------------|-----------|---------------------------|--------------------------------------------------------------------------|----------------|
+| Shubhreeka   | Leader    | saxenashunhreeka@gmail.com| 
+| Soasmi Kohli | Member    | soasmikohli@gmail.com     | [LinkedIn](http://www.linkedin.com/in/soasmi-kohli-711476291)            | GGSIPU, Delhi  |
+| Manshi       | Member    | manshi25chauhan@gmail.com | [LinkedIn](https://www.linkedin.com/in/manshi-chauhan-860639315/)        | GGSIPU, Delhi  |
+| Varun Makhija| Member    | varunmakhija799@gmail.com | [LinkedIn](https://www.linkedin.com/in/varun-makhija-3a66a125a/)         | GGSIPU, Delhi  |
+| Piyush Raj   | Member    | piyushraj623623@gmail.com | [LinkedIn](https://www.linkedin.com/in/piyush-raj-7314012a7/)            | GGSIPU, Delhi  |
+| Rishita      | Member    | kaushikrishita615@gmail.com| [LinkedIn](https://www.linkedin.com/in/rishita-kaushik-a950b730a/)      | GGSIPU, Delhi  |
 
-## API Endpoints
 
-- `POST /api/generate` - Generate code from description
-- `POST /api/deploy` - Deploy app to cloud
-- `GET /api/templates` - Get available templates
-- `POST /api/auth/signin` - User authentication
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+## 8. Additional Links
+- **GitHub Repository**: [https://github.com/soasmi/bold](https://github.com/soasmi/bold)  
+- **Project Demo/Video**: [Add link here]  
+- **Deployed App**: [http://localhost:3000] (local dev) 
+- **Docs**: [docs.boldai.dev](https://docs.boldai.dev)  
 
-## License
+---
 
-MIT License - see LICENSE file for details
+## 9. Instructions for Evaluators
 
-## Support
-
-- 📧 Email: support@boldai.dev
-- 💬 Discord: [Join our community](https://discord.gg/boldai)
-- 📖 Docs: [docs.boldai.dev](https://docs.boldai.dev)
+Clone the repository:
+```bash
+git clone https://github.com/soasmi/bold
+cd bold
