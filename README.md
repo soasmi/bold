@@ -58,8 +58,7 @@ HackWithIndia x Devnovate
 
 ## 8. Additional Links
 - **GitHub Repository**: [https://github.com/soasmi/bold](https://github.com/soasmi/bold)  
-- **Project Demo/Video**: [Add link here]  
-- **Deployed App**: [http://localhost:3000] (local dev) 
+- **Deployed App**: https://interstellers.netlify.app/
 - **Docs**: [docs.boldai.dev](https://docs.boldai.dev)  
 
 ---
