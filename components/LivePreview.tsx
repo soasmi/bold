@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { EyeIcon, ArrowTopRightOnSquareIcon, RefreshIcon } from '@heroicons/react/24/outline'
+import { EyeIcon, ArrowTopRightOnSquareIcon, ArrowPathIcon } from '@heroicons/react/24/outline'
+
 import toast from 'react-hot-toast'
 
 interface LivePreviewProps {
@@ -69,7 +70,7 @@ export function LivePreview({ code }: LivePreviewProps) {
           <span className="font-medium text-gray-900">Live Preview</span>
           {isLoading && (
             <div className="flex items-center space-x-2 text-sm text-gray-500">
-              <RefreshIcon className="w-4 h-4 animate-spin" />
+              <ArrowPathIcon  className="w-4 h-4 animate-spin" />
               <span>Generating...</span>
             </div>
           )}
@@ -81,7 +82,7 @@ export function LivePreview({ code }: LivePreviewProps) {
             disabled={isLoading}
             className="px-3 py-2 text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 transition-colors flex items-center"
           >
-            <RefreshIcon className="w-4 h-4 mr-1" />
+            <ArrowPathIcon  className="w-4 h-4 mr-1" />
             Refresh
           </button>
           {previewUrl && (
